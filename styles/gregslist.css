@@ -40,7 +40,9 @@ main{
   text-align: right;
   display: inline-block;
   float: right;
+
   font-family: sans-serif;
+
   font-size: large;
   vertical-align: middle;
 }
