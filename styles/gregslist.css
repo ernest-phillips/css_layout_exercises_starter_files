@@ -28,6 +28,7 @@ li{
 main{
   width: 80%;
   margin: auto;
+  padding-top: 50px;
 }
 
 .nav-border{
@@ -39,10 +40,12 @@ main{
   text-align: right;
   display: inline-block;
   float: right;
-  font-style: sans-serif;
+  font-family: : sans-serif;
   font-size: large;
   vertical-align: middle;
 }
+
+
 .nav-left{
   display: inline-block;
 }
@@ -65,5 +68,6 @@ span{
   font-weight: bold;
 }
 [src*=magnifying]{
-  height: 19px;
+  height: 25px;
+  vertical-align: middle;
 }
