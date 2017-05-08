@@ -26,12 +26,16 @@ li{
   text-align: right;
 
 }
+nav ul{
+  display: inline-block;
+}
 nav>img{
   position: absolute;
   left: 50px;
   width: 40px;
   border: 1px solid black;
   border-radius: 25px;
+  vertical-align: middle;
 
 }
 .dot-box img{
@@ -46,4 +50,17 @@ main{
   height: 300px;
   width: 600px;
 
+}
+.spacecat, .spacedog{
+  position: absolute;
+  width: 200px;
+}
+.spacedog{
+  top: 350px;
+  right: 250px;
+}
+
+.spacecat{
+  top: 90px;
+  left: 250px;
 }
